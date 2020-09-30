@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Filtrar</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <metadata charset="UTF-8">
+    <title>Creative Filters</title>
+    </head>
+  <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+  <body>
+    <body>
+      <h1> Creative Filters <h1>
+ <canvas id="c">
+        </canvas>
+<br>
+        <h2> Load Image </h2>
+        <input type="file" multiple="false" accepts="image/*" onchange="upload()" id="up">
+        
+<br>
+        <h2> Apply Filters:</h2>
+        <input type="button" id="grey" value="Greyscale" onclick="greys()">
+        <input type="button" id="redf" value="Red Filter" onclick="red()">
+        <input type="button" id="rbr" value="Red Blue Randomiser" onclick="rg()">
+<br> <input type="button" id="reset" value="Reset Image" onclick="res()">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
