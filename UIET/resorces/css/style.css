@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    font-size:20px;
+    font-family:'Burbank Big Regular','Arial';
+    color:#656565;
+    font-weight:300;
+    text-rendering: optimizeLegibility;
+}
+.row{
+    max-width:1140px;
+    margin:0 auto;
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 226, 255, 0.71),rgba(0, 245, 255, 0.78)),url(college.jpg);
+    background-size:cover;
+    background-position:center;
+    height:58vh;
+}
+
+h1{
+    color:#fff;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 200%;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 165px;
+    font-family:'Baloo Paaji 2';
+   
+}
+h2{
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font font-weight: 300;
+    text-align:left;
+    padding-top:120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #088;
+    
+    
+}
+.long-copy{
+    line-height: 145%;
+    width: 95%;
+    word-spacing:1px;
+    
+}
+
+.logo{
+    height:57px;
+    width:auto;
+    float: left;
+}
+.main-nav{
+    float: right;
+    list-style:none;
+}
+.main-nav li{
+    display:inline-block;
+    margin-left: 40px;
+    margin-top:20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #088;
+}
